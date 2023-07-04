@@ -486,7 +486,10 @@ form{
     background-color: #fff;
     width: 100%;
 }
-
+.creater{
+    font-size: 12px;
+    padding-top: 10px;
+}
 
 
 @media (max-width:1180px){
@@ -549,6 +552,9 @@ form{
     }
     .tabs_content-item{
         grid-template-columns: repeat(2,1fr);
+    }
+    .creater{
+        text-align: center;
     }
 }
 @media (max-width:768px){
