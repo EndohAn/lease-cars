@@ -487,8 +487,9 @@ form{
     width: 100%;
 }
 .creater{
-    font-size: 12px;
-    padding-top: 10px;
+    font-size: 10px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 
@@ -553,9 +554,7 @@ form{
     .tabs_content-item{
         grid-template-columns: repeat(2,1fr);
     }
-    .creater{
-        text-align: center;
-    }
+    
 }
 @media (max-width:768px){
     .title{
